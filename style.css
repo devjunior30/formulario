@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'East Sea Dokdo', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    background-color: #1818f0;
+    padding: 10px 10px;
+    color: aliceblue;
+    border: none;
+    border-radius: 15px;
+    font-family: poppins;
+    font-weight: 700;
+    opacity: 0.5;
+    position: sticky;
+}
+
+input {
+    display: block;
+    margin: 15px 30px;
+    width: 300px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    border: 3px solid black;
+    font-size: 15px;
+    color: #4f4f4f;
+    outline: none;
+    cursor: pointer;
+}
+
+input:hover {
+    background-color: black;
+
+}
+
+.text {
+    width: 600px;
+    height: auto;
+}
+
+label {
+    margin-left: 20px;
+    font-size: 15px;
+    color: #4F4F4F;
+}
+
+textarea {
+    display: block;
+    margin: 10px 30px;
+    width: 500px;
+    height: 135px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    border: 3px solid black;
+    font-size: 15px;
+    color: #4f4f4f;
+    outline: none;
+    cursor: pointer;
+}
+
+textarea:hover {
+    background-color: black;
+}
+
+.name::before {
+    content: "✏️";
+}
+
+.email::before {
+    content: "💌";
+}
+
+.tel::before {
+    content: "📞";
+}
+
+.text::before {
+    content: "😀";
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border: 7px double black;
+    font-size: 15px;
+    font-family: East Sea Dokdo;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+button:hover {
+    color:#A9A9A9;
+    background-color: black;
+    opacity: 0.5;
+}
+
+div {
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+    width: 300px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    border: 16px double #1818f0;
+    
+}
+
+
+section {
+    display: inline-block;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    position: absolute;
+}
+
+h1 {
+    font-family: roboto;
+    font-weight: 700;
+    font-style: italic;
+    margin: 0 0 30px 30px;
+    letter-spacing: 3px;
+    font-size: 35px;
+    color: #1818f0;
+    padding-top: 10px;
+}
+
+h3 {
+    font-family: East Sea Dokdo;
+    font-weight: 00;
+    line-height: 5px;
+    margin: 10px 0 30px 50px;
+    font-size: 30px;
+    color: #0000cc;
+}
+
+p {
+    width: 400px;
+    padding-right: 20px;
+    line-height: 30px;
+    margin-left: 50px;
+    font-family: poppins;
+    font-weight: 30px;
+    padding-bottom: 10px;
+}
+
+#painel {
+    background-color: rgb(169,169,169,0.4);
+    width: 30vw;
+    height: auto;
+    border-radius: 10px;
+}
+
+
